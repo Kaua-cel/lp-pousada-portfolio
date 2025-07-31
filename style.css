@@ -1,0 +1,46 @@
+*{
+    background: #fcfcfc;
+}
+
+.logo-img{
+    width: 48px;
+    height: 33px;
+    aspect-ratio: 16/11;
+}
+.logo-title{
+    color: var(--title-logo, #661A14);
+    font-family: Amiko;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav-bar li a{
+    text-decoration: none;
+}
+.nav-bar li{
+    color: var(--title, #000814);
+    font-family: Amiko;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
