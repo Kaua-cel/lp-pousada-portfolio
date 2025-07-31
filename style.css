@@ -198,13 +198,55 @@ header{
 .section-suits{
     margin-top: 24px;
     display: flex;
-    width: 1200px;
     flex-direction: column;
     align-items: center;
     gap: 24px;
 }
 
 /* section photos */
-.photos .title-photos{
-    
+.section-photos .title-photos h2{
+    align-self: stretch;
+    color: var(--title-logo, #661A14);
+    font-family: Amiko;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.section-photos .title-photos h3{
+    margin-top: 0;
+    align-self: stretch;
+    color: var(--title-logo, #661A14);
+    font-family: Amiko;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-photos .title-photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-photos .photos img{
+    width: 278px;
+    height: auto;
+    transform: rotate(-4.605deg);
+    aspect-ratio: 139/104;
+    border-radius: 8px;
+}
+.section-photos .photos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.section-photos{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
